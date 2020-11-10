@@ -13,6 +13,8 @@
 		F01CC608255ADBFF00BEC3BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F01CC607255ADBFF00BEC3BF /* Preview Assets.xcassets */; };
 		F01CC613255ADBFF00BEC3BF /* assingment12_TPKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01CC612255ADBFF00BEC3BF /* assingment12_TPKTests.swift */; };
 		F01CC61E255ADBFF00BEC3BF /* assingment12_TPKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01CC61D255ADBFF00BEC3BF /* assingment12_TPKUITests.swift */; };
+		F01CC62F255ADCAC00BEC3BF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01CC62E255ADCAC00BEC3BF /* Launch Screen.storyboard */; };
+		F01CC634255ADF3300BEC3BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01CC633255ADF3300BEC3BF /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		F01CC619255ADBFF00BEC3BF /* assingment12_TPKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = assingment12_TPKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01CC61D255ADBFF00BEC3BF /* assingment12_TPKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assingment12_TPKUITests.swift; sourceTree = "<group>"; };
 		F01CC61F255ADBFF00BEC3BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01CC62E255ADCAC00BEC3BF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F01CC633255ADF3300BEC3BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +101,11 @@
 			children = (
 				F01CC600255ADBFC00BEC3BF /* assingment12_TPKApp.swift */,
 				F01CC602255ADBFC00BEC3BF /* ContentView.swift */,
+				F01CC633255ADF3300BEC3BF /* ViewController.swift */,
 				F01CC604255ADBFF00BEC3BF /* Assets.xcassets */,
 				F01CC609255ADBFF00BEC3BF /* Info.plist */,
 				F01CC606255ADBFF00BEC3BF /* Preview Content */,
+				F01CC62E255ADCAC00BEC3BF /* Launch Screen.storyboard */,
 			);
 			path = assingment12_TPK;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F01CC62F255ADCAC00BEC3BF /* Launch Screen.storyboard in Resources */,
 				F01CC608255ADBFF00BEC3BF /* Preview Assets.xcassets in Resources */,
 				F01CC605255ADBFF00BEC3BF /* Assets.xcassets in Resources */,
 			);
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F01CC634255ADF3300BEC3BF /* ViewController.swift in Sources */,
 				F01CC603255ADBFC00BEC3BF /* ContentView.swift in Sources */,
 				F01CC601255ADBFC00BEC3BF /* assingment12_TPKApp.swift in Sources */,
 			);
